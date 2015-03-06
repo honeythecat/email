@@ -1,0 +1,16 @@
+<nav class='navbar navbar-default'>
+  <div class="container">
+    {{#link-to 'emails'}}<a class="navbar-brand">CAPS LOCK EMAIL</a>{{/link-to}}
+
+    <ul class='nav navbar-nav navbar-list'>
+      <li><a href="#">{{#link-to 'new-email'}}Write{{/link-to}}</a></li>
+      <!-- <li><a href="#">{{#link-to 'sent'}}Sent{{/link-to}}</a></li> -->
+    </ul>
+  </div>
+</nav>
+
+<body>
+  <div class="container">
+    {{outlet}}
+  </div>
+</body>

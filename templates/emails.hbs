@@ -1,0 +1,7 @@
+<h1>CAPS LOCK EMAIL</h1>
+
+<ul>
+  {{#each email in model}}
+    <li>{{#link-to 'email' email}}{{email.subject}}{{/link-to}}</li>
+  {{/each}}
+</ul>
