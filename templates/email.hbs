@@ -1,0 +1,13 @@
+<h1>{{sender}} SENT YOU THIS EMAIL: {{subject}}</h1>
+<h4>{{body}}</h4>
+
+<hr>
+
+
+{{#each response in responses}}
+  <span class='response-responder'>{{response.responder}}</span>
+  <br>
+  <span class='response-re'>{{response.re}}</span>
+  <br>
+  <span class='response-response'>{{respone.response}}</span>
+{{/each}}

@@ -1,7 +1,10 @@
 <h1>CAPS LOCK EMAIL</h1>
 
+<hr>
+
 <ul>
-  {{#each email in model}}
-    <li>{{#link-to 'email' email}}{{email.subject}}{{/link-to}}</li>
-  {{/each}}
+  <h4>INBOX</h4>
+    {{#each email in model}}
+      <li>{{#link-to 'email' email}}SENDER: {{email.sender}} SUBJECT: {{email.subject}}{{/link-to}}</li>
+    {{/each}}
 </ul>

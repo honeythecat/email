@@ -1,3 +1,2 @@
-Email.LotsController = Ember.ArrayController.extend({
-
+Email.EmailController = Ember.ArrayController.extend({
 });

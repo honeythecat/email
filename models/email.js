@@ -1,6 +1,6 @@
-Email.Lot = DS.Model.extend({
-  sendter: DS.attr(),
+Email.Email = DS.Model.extend({
+  sender: DS.attr(),
   subject: DS.attr(),
   body: DS.attr(),
-  dateSent: DS.attr()
+  resonses: DS.hasMany('response', {async: true})
 });

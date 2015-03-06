@@ -1,0 +1,20 @@
+<h1>WRITE AN EMAIL TO YOURSELF!!!!</h1>
+
+<form>
+  <div class="form-group">
+    <label for="sender">SENDER:</label>
+    {{input value=sender id="sender" class="form-control" placeholder="WHO ARE YOU?"}}
+  </div>
+
+  <div class="form-group">
+    <label for="subject">SUBJECT:</label>
+    {{input value=subject id="subject" class="form-control" placeholder="TL;DR!!!"}}
+  </div>
+
+  <div class="form-group">
+    <label for="body">BODY:</label>
+    {{textarea rows="10" value=body id="body" class="form-control" placeholder="WHAT THE HELL DO YOU WANT TO SAY?!!"}}
+  </div>
+
+  <button class="btn btn-info" {{action 'save'}}>SEND THIS EMAIL!!!</button>
+</form>
