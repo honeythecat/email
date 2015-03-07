@@ -24,3 +24,22 @@ body {
 .respond-form {
   padding: 5%;
 }
+
+.response-responder {
+  color: #428bca;
+  margin: 5px;
+}
+
+.response-re {
+  color: #428bca;
+  margin: 5px;
+}
+
+.response-responsething {
+  color: #428bca;
+  margin: 5px;
+}
+
+.responses {
+  margin: 1%;
+}

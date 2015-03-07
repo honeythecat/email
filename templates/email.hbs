@@ -9,11 +9,12 @@
 
 
 {{#each response in responses}}
-  <span class='response-responder'>{{response.responder}}</span>
+  <div class="responses">
+    RESPONDER: <span class='response-responder'>{{response.responder}}</span>
+    RE: <span class='response-re'>{{response.re}}</span>
+    RESPONSE: <span class='response-responsething'>{{response.responsething}}</span>
   <br>
-  <span class='response-re'>{{response.re}}</span>
-  <br>
-  <span class='response-responsething'>{{response.responsething}}</span>
+  </div>
 {{/each}}
 
 
