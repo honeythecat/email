@@ -24,7 +24,7 @@ Email.EmailController = Ember.ObjectController.extend({
       response.save();
     },
     createResponse: function() {
-      this.transitionToRoute("new-response")
+      this.transitionToRoute("new-response");
     }
   }
 });

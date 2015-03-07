@@ -12,7 +12,7 @@ Run index.html in your browser.
 Have fun!
 
 ##Known Bugs as of 3/6/15
-Currently can't get responses to work, even though at one time they were....
+None as of 5:16
 
 ##Motivation
 
