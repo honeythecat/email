@@ -2,3 +2,24 @@ body {
   color: white;
   background-color: black;
 }
+
+.sender-inbox {
+  margin: 20px;
+}
+
+.sent-you {
+  color: #428bca;
+  font-size: 50%;
+}
+
+.email-body {
+  margin: 3%;
+}
+
+.respond {
+  padding: 1%;
+}
+
+.respond-form {
+  padding: 5%;
+}

@@ -5,6 +5,8 @@
 <ul>
   <h4>INBOX</h4>
     {{#each email in model}}
-      <li>{{#link-to 'email' email}}SENDER: {{email.sender}} SUBJECT: {{email.subject}}{{/link-to}}</li>
+      <li>
+      {{#link-to 'email' email}}SUBJECT: {{email.subject}} <span class="sender-inbox">SENDER: {{email.sender}}</span> {{/link-to}}
+      </li>
     {{/each}}
 </ul>

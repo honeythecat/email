@@ -4,6 +4,7 @@ Email.NewResponseController = Ember.ObjectController.extend({
     saveResponse: function() {
       var response = this.get('model');
       response.save();
+
       var email = this.get('controllers.email.model');
       email.get('responses').pushObject(response);
       email.save();

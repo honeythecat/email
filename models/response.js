@@ -1,6 +1,6 @@
 Email.Response = DS.Model.extend({
-  sender: DS.attr(),
+  responder: DS.attr(),
   re: DS.attr(),
-  body: DS.attr(),
+  responsething: DS.attr(),
   email: DS.belongsTo('email', {async: true})
 });

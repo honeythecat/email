@@ -1,2 +1,2 @@
-Email.EmailController = Ember.ArrayController.extend({
+Email.EmailsController = Ember.ArrayController.extend({
 });

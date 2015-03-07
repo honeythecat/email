@@ -1,18 +1,20 @@
-<form>
-  <div class="form-group">
-    <label for="responder">RESPONDER:</label>
-    {{input value=responder id="responder" class="form-control" placeholder="WHO ARE YOU?"}}
-  </div>
+<div class="respond-form">
+  <form>
+    <div class="form-group">
+      <label for="responder">RESPONDER:</label>
+      {{input value=responder id="responder" class="form-control" placeholder="WHO ARE YOU?"}}
+    </div>
 
-  <div class="form-group">
-    <label for="re">RE:</label>
-    {{input value=re id="re" class="re" placeholder="WHAT ARE YOU RESPONDING TO?????!!"}}
-  </div>
+    <div class="form-group">
+      <label for="re">RE:</label>
+      {{input value=re id="re" class="re" class="form-control" placeholder="WHAT ARE YOU RESPONDING TO?????!!"}}
+    </div>
 
-  <div class="form-group">
-    <label for="response">RESPONSE</label>
-    {{textarea rows="10" value=body id="response" class="form-control" placeholder="WHAT THE HELL DO YOU WANT TO TELL YOURSELF?!!"}}
-  </div>
+    <div class="form-group">
+      <label for="responsething">RESPONSE</label>
+      {{textarea rows="10" value=responsething id="responsething" class="form-control" placeholder="WHAT THE HELL DO YOU WANT TO TELL YOURSELF?!!"}}
+    </div>
 
-  <button class="btn btn-info" {{action 'saveResponse'}}>RESPOND NOW!!</button>
-</form>
+    <button class="btn btn-info" {{action 'saveResponse'}}>RESPOND NOW!!</button>
+  </form>
+</div>

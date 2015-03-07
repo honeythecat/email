@@ -18,6 +18,13 @@ Email.EmailController = Ember.ObjectController.extend({
     save: function() {
       var email = this.get('model');
       email.save();
+    },
+    saveResponse: function() {
+      var response = this.get('model');
+      response.save();
+    },
+    createResponse: function() {
+      this.transitionToRoute("new-response")
     }
   }
 });

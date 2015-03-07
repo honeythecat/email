@@ -1,5 +1,9 @@
-<h1>{{sender}} SENT YOU THIS EMAIL: {{subject}}</h1>
-<h4>{{body}}</h4>
+<h2>{{sender}}<span class="sent-you"> SENT YOU THIS EMAIL </span>{{subject}}</h2>
+<hr>
+
+<h4><span class="email-body">{{body}}</span></h4>
+
+
 
 <hr>
 
@@ -9,5 +13,11 @@
   <br>
   <span class='response-re'>{{response.re}}</span>
   <br>
-  <span class='response-response'>{{respone.response}}</span>
+  <span class='response-responsething'>{{response.responsething}}</span>
 {{/each}}
+
+
+<div class="respond">
+  <button this class='btn btn-xs btn-success' {{action "saveResponse"}}>RESPOND TO YOURSELF!!!</button>
+  {{outlet}}
+</div>
