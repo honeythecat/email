@@ -1,6 +1,6 @@
 README
 
-##CAPSLOCKEMAIL!
+##CAPS LOCK EMAIL!
 by Heather Anderson
 
 A simple EMBER.js app that lets you send emails to yourself! You can view and respond to your own wisdom. It's like time travelling in a really lame fashion.
